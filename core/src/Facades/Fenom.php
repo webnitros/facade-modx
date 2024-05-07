@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by Andrey Stepanenko.
- * User: webnitros
- * Date: 19.11.2022
- * Time: 13:26
- */
-
-namespace MODX\Container\Facades;
+namespace Facades;
 
 use Illuminate\Support\Facades\Facade;
 use MMX\Fenom\App;
@@ -20,6 +13,6 @@ class Fenom extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return 'fenom';
+        return 'mmxFenom';
     }
 }
