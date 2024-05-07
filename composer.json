@@ -1,0 +1,12 @@
+{
+  "name": "modx/revolution",
+  "description": "MODX Revolution Facade",
+  "require": {
+    "illuminate/container": "^5.8"
+  },
+  "autoload": {
+    "files": [
+      "core/src/Container/functions.php"
+    ]
+  }
+}
